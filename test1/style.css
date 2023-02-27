@@ -1,0 +1,46 @@
+body {
+background-image: url(https://natworld.info/wp-content/uploads/2020/04/poberezhe-morya.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.button-wrapper {
+margin: 150px 200px;
+}
+h1 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: underline;
+color: rgb(94, 89, 89);
+}
+.btn {
+text-transform: uppercase;
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: #ecb486;
+border-radius: 5px;
+height: 50px;
+width: 180px;
+cursor: pointer;
+border: solid 1px rgb(40, 20, 150);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+margin-left: 150px;
+}
+.btn-text{
+color: rgb(155, 146, 204);
+margin-right: 5px;
+}
+.btn:hover {
+background-color: rgb(118, 116, 150);
+}
+.btn-icon {
+width: 15px;
+height: 15px;
+font-size: 5px;
+}
+.icon_1 {
+display: block;
+}
+.icon_2 {
+display: none;
+}
